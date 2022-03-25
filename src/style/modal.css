@@ -1,0 +1,57 @@
+div.modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: rgba(32, 32, 32, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+div.modalBox {
+    min-width: 50%;
+    min-height: 50%;
+    flex-grow: 0;
+    background: #e6e6e6;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+}
+
+div.modalHeader {
+    display: table;
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+div.modalHeader > div {
+    display: table-cell;
+}
+
+div.modalBody {
+    padding: 0px 25px 25px 25px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    display: flex;
+}
+
+div.closeModal {
+    min-width: 25px;
+    text-align: right;
+    color: #f44336;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    vertical-align: top;
+    cursor: pointer;
+}

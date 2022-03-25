@@ -1,0 +1,74 @@
+div.bodyInterface {
+    width: auto;
+    overflow: hidden;
+    align-items: left;
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+div.bodyInterface:last-child {
+    border-bottom: none;
+}
+div.bodyInterface:hover {
+    background: #c9c9c9;
+}
+
+div.interfaceFixedWrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.colorBox {
+    width: 45px;
+    height: 45px;
+    border: 2px solid black;
+}
+div.colorBox.current {
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px;
+    transition: box-shadow 0.5s ease;
+}
+
+div.interfaceOuterWrapper {
+    display: flex;
+    overflow: hidden;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+div.interfaceInnerWrapper > div {
+    float: left;
+}
+
+div.labelWrapper {
+    line-height: 25px;
+}
+
+td.labelType {
+    font-weight: bold;
+    font-size: 16pt;
+    vertical-align: middle;
+}
+
+td.labelType span {
+    margin-right: 20px;
+}
+
+td.labelValue {
+    font-size: 14pt;
+    vertical-align: middle;
+}
+
+div.singleLabelWrapper {
+    text-align: center;
+    font-size: 14pt;
+    margin-left: 20px;
+}
+
+span.singleLabelType {
+    font-size: 12pt;
+}

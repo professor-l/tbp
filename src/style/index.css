@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: "Source Code Pro", monospace;
+}
+
+div.App {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.collectionVisuals {
+    background: #202020;
+    position: relative;
+}
+
+canvas.collection {
+    position: absolute;
+}
+
+div.collectionInterface {
+    background: #e6e6e6;
+    width: auto;
+    display: table-cell;
+    padding: 10px 20px 10px 20px;
+    min-width: 445px;
+    flex: 1 0 445px;
+}
+
+
+
+div.collectionMeta {
+    width: auto;
+    overflow: hidden;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+div.collectionTitle {
+    font-size: 32pt;
+    font-weight: bold;
+    font-style: italic;
+}
+
+div.collectionInfo {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+div.collectionInfo div.labelWrapper {
+    padding-right: 25px;
+}
+
+div.bodyCount {
+    font-size: 16pt;
+    font-weight: bold;
+    
+}
